@@ -1,0 +1,102 @@
+/* Left Navigation Panel */
+.leftNav {
+  width: 20vw; /* Sets the width of the navigation bar */
+  background-color: black; /* Background color */
+  color: white; /* Text color */
+  min-height: 100vh; /* Full height */
+  display: flex; /* Flexbox layout */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: stretch; /* Stretch child elements */
+  padding: 0rem; /* Added padding around the nav */
+  gap: 1.5rem;
+  border: 1px solid #464646; /* Adds space between elements */
+  overflow-y: auto; /* Allow scrolling */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari */
+.leftNav::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
+/* StartwithSmallLogo Widget */
+.leftNav > :first-child {
+  padding: 4rem 3rem 1rem; /* Added padding on the left, top, and bottom */
+  display: flex;
+  justify-content: center; /* Centers the logo */
+}
+
+/* Navigation List */
+.navList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  gap: 1rem; /* Adds spacing between navigation items */
+}
+
+/* Navigation Item */
+.navItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding: 1.5rem; /* Increased padding */
+  font-size: clamp(1.2rem, 1.5vw, 1.4rem);
+  text-align: left;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-top: 1px solid #464646;
+  border-left: 1px solid #464646;
+  border-bottom: 1px solid #464646;
+}
+
+/* Hover and Focus Effect for Navigation Items */
+.navItem:hover,
+.navItem:focus {
+  background-color: white;
+  color: black;
+}
+
+/* Dropdown Parent */
+.dropdownParent {
+  font-weight: semibold; /* Corrected font weight */
+  position: relative;
+  border-top: 1px solid #464646;
+  border-left: 1px solid #464646;
+  border-bottom: 1px solid #464646;
+}
+
+/* Dropdown Menu */
+.dropdownMenu {
+  background-color: #333;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Dropdown Items */
+.dropdownItem {
+  padding: 12px 20px; /* Added more padding */
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 1px solid #464646; /* Added border */
+}
+
+/* Active State for Items */
+.navItem.active {
+  background-color: white;
+  color: black;
+}
+
+.dropdownItem.active {
+  background-color: white;
+  color: black;
+}

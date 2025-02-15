@@ -1,0 +1,49 @@
+.rightNav {
+  width: 10vw;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem; /* Adds space at the top */
+}
+
+/* Username positioned at the top with more spacing */
+.username {
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4rem; /* Increased gap for better balance */
+}
+
+/* Navigation list is centered properly */
+.navList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  padding-top: 8rem; /* Adds space at the top */
+  padding-bottom: 0;
+  margin: 0;
+}
+
+/* Each navigation item now spans full width */
+.navItem {
+  width: 100%;
+  cursor: pointer;
+  padding: clamp(0.7rem, 1vw, 1.5rem); /* More padding for full selection */
+  font-size: clamp(0.875rem, 1vw, 1.25rem);
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensures full-width hover effect */
+.navItem:hover,
+.navItem:focus {
+  background-color: white;
+  color: black;
+  outline: none;
+}
