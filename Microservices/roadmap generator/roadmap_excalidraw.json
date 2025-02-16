@@ -1,0 +1,670 @@
+{
+    "type": "excalidraw",
+    "version": 2,
+    "source": "custom_script",
+    "elements": [
+        {
+            "type": "rectangle",
+            "id": "be741fb6-5c5a-43fe-a7e7-bd915d11ae4a",
+            "x": 500,
+            "y": 50,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "da8f4a0e-8d19-438d-8dab-3b60f0d8d3d0",
+            "x": 520,
+            "y": 90,
+            "width": 260,
+            "height": 50,
+            "text": "\ud83d\udccc python",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "b2f0b840-66e0-48c4-9da7-cc52ff481861",
+            "x": 500,
+            "y": 100,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "7654c3dd-f043-490d-8453-2ebb1f9044eb",
+            "x": 520,
+            "y": 140,
+            "width": 260,
+            "height": 50,
+            "text": "Introduction",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "a39a2a64-e3eb-4b32-a5e9-4a92c4f9abf7",
+            "x": 500,
+            "y": 300,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "02376813-f9b2-4fb6-be53-093749827575",
+            "x": 520,
+            "y": 340,
+            "width": 260,
+            "height": 50,
+            "text": "Prerequisites",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "cd7e0327-87ad-4c66-8f98-7f5e1b88f41f",
+            "x": 500,
+            "y": 500,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "bbcc5ca4-ce78-4ddd-9ac5-9cda92e0d3b9",
+            "x": 520,
+            "y": 540,
+            "width": 260,
+            "height": 50,
+            "text": "Step 1: Setting up the Environment",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "0890e5a3-95bb-43cf-b6e9-6a08cde695f8",
+            "x": 500,
+            "y": 700,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "17df580c-2506-4298-a949-f123ad1a526f",
+            "x": 520,
+            "y": 740,
+            "width": 260,
+            "height": 50,
+            "text": "Step 2: Basic Syntax and Data Types",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "11ed7447-ebab-4f10-96f5-61f281e52688",
+            "x": 500,
+            "y": 900,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "799b96ed-66a2-473e-996d-429dade17f62",
+            "x": 520,
+            "y": 940,
+            "width": 260,
+            "height": 50,
+            "text": "Step 3: Control Flow",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "5914a3cd-bb2b-4af9-991a-c73525c6755f",
+            "x": 500,
+            "y": 1100,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "34a62de0-1132-469b-9e5e-36680d9bf5c1",
+            "x": 520,
+            "y": 1140,
+            "width": 260,
+            "height": 50,
+            "text": "Step 4: Data Structures",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "68b952ac-49b9-4f9e-97ca-bae477af5849",
+            "x": 500,
+            "y": 1300,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "5875ca03-bfac-426f-bf0d-7ae566101832",
+            "x": 520,
+            "y": 1340,
+            "width": 260,
+            "height": 50,
+            "text": "Step 5: Functions",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "4bb1eec6-f1b0-41cb-b708-5a91df0f0f77",
+            "x": 500,
+            "y": 1500,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "93334051-dda9-4dc7-b8aa-040efc22a5df",
+            "x": 520,
+            "y": 1540,
+            "width": 260,
+            "height": 50,
+            "text": "Step 6: Modules and Packages",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "83d3dcc2-361e-4a49-b050-f83eb104367e",
+            "x": 500,
+            "y": 1700,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "92d283e0-c32c-42af-8b05-ff09f4ee69c2",
+            "x": 520,
+            "y": 1740,
+            "width": 260,
+            "height": 50,
+            "text": "Step 7: Object-Oriented Programming (OOP)",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "25f825bf-88b7-4cce-819f-c6523515c02c",
+            "x": 500,
+            "y": 1900,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "d9a60f6e-deac-4ef5-945a-6f2fbcbd449c",
+            "x": 520,
+            "y": 1940,
+            "width": 260,
+            "height": 50,
+            "text": "Step 8: File Handling",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "bc9f4358-9069-42b0-945e-a83a70d485a7",
+            "x": 500,
+            "y": 2100,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "3ccfeb4d-a789-427e-ad31-82430bedeff3",
+            "x": 520,
+            "y": 2140,
+            "width": 260,
+            "height": 50,
+            "text": "Step 9: Exception Handling",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "1792f800-aac9-445f-a382-17284ec8060c",
+            "x": 500,
+            "y": 2300,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "d5c6c5a9-5691-4008-8a7a-8e176b33dea5",
+            "x": 520,
+            "y": 2340,
+            "width": 260,
+            "height": 50,
+            "text": "Step 10: Choose a Specialization",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "rectangle",
+            "id": "cf6c8392-420e-4d9f-b4ba-b73c6cf705c1",
+            "x": 500,
+            "y": 2500,
+            "width": 300,
+            "height": 100,
+            "strokeColor": "black",
+            "backgroundColor": "yellow",
+            "strokeWidth": 2,
+            "groupIds": [],
+            "border radius": 10
+        },
+        {
+            "type": "text",
+            "id": "1cf9ab36-9d9a-4539-b04e-1d93316d45bb",
+            "x": 520,
+            "y": 2540,
+            "width": 260,
+            "height": 50,
+            "text": "Final Goals",
+            "strokeColor": "black",
+            "backgroundColor": "transparent",
+            "fontSize": 20,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "bcdeab5b-4ed6-45f2-9994-a4a0e0bd156a",
+            "x": 650,
+            "y": 150,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "b44d9b06-407e-4cb4-abd5-34db7e0eef1f",
+            "x": 650,
+            "y": 200,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "fd2033fc-0643-4433-ae58-49210ad11d50",
+            "x": 650,
+            "y": 400,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "c9c6a672-a8d9-48f3-ac97-44e949c6b893",
+            "x": 650,
+            "y": 600,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "6482edf7-e265-49d4-858b-e3d848b22b03",
+            "x": 650,
+            "y": 800,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "69317897-9b2a-488f-a758-3e1467c84891",
+            "x": 650,
+            "y": 1000,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "108b98f1-2c17-4c83-a465-3068872b671c",
+            "x": 650,
+            "y": 1200,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "76b029ed-262a-4ee6-80be-785abd9f237a",
+            "x": 650,
+            "y": 1400,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "363cccbb-72b0-41c5-a841-31c837f8b3c3",
+            "x": 650,
+            "y": 1600,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "7b67a018-c781-4a73-95c0-aeb0e2f2b15b",
+            "x": 650,
+            "y": 1800,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "72c5bd61-839d-4bd0-b46d-74975a82bd1f",
+            "x": 650,
+            "y": 2000,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "bea27d4d-0d61-4157-9a30-efc9e34f2142",
+            "x": 650,
+            "y": 2200,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        },
+        {
+            "type": "arrow",
+            "id": "40441d43-4a57-4859-9249-2005d05e755f",
+            "x": 650,
+            "y": 2400,
+            "width": 0,
+            "height": 100,
+            "points": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    100
+                ]
+            ],
+            "startArrowhead": null,
+            "endArrowhead": "arrow",
+            "strokeColor": "black",
+            "strokeWidth": 2,
+            "groupIds": []
+        }
+    ]
+}
