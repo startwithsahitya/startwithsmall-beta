@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useEffect } from "react";
+import { useRouter, useParams } from "next/navigation";
 import styles from "./LeftNav.module.css";
 import StartwithSmallLogo from "./StartwithSmallLogo";
 
@@ -10,47 +11,61 @@ interface LeftNavProps {
   setActiveDropdownItem: (item: string | null) => void;
 }
 
+const dropdownItems = [
+  "StartwithSmall",
+  "StartwithDesign",
+  "StartwithCreativeWriting",
+  "StartwithProgramming",
+] as const;
+
 export default function LeftNav({
   activeItem,
   setActiveItem,
   activeDropdownItem,
   setActiveDropdownItem,
 }: LeftNavProps) {
+  const router = useRouter();
+  const params = useParams();
+  const slug = params.slug as string;
+
+  useEffect(() => {
+    console.log("LeftNav State:", { activeItem, activeDropdownItem });
+  }, [activeItem, activeDropdownItem]);
+
+  const toPathSegment = (item: string) => {
+    return item.toLowerCase().replace(/ /g, "");
+  };
+
   return (
     <nav className={styles.leftNav}>
       <StartwithSmallLogo />
-
       <ul className={styles.navList}>
-        {/* Communities with Dropdown */}
         <li
           className={`${styles.navItem} ${styles.dropdownParent} ${
             activeItem === "Communities" ? styles.active : ""
           }`}
           onClick={() => {
-            setActiveItem(activeItem === "Communities" ? null : "Communities");
-            setActiveDropdownItem(null); // Reset dropdown item when closing Communities
+            const newActive =
+              activeItem === "Communities" ? null : "Communities";
+            setActiveItem(newActive);
+            setActiveDropdownItem(newActive ? "StartwithSmall" : null);
           }}
         >
           Communities
         </li>
+
         {activeItem === "Communities" && (
           <ul className={styles.dropdownMenu}>
-            {[
-              "StartwithSmall",
-              "StartwithDesign",
-              "StartwithCreativeWriting",
-              "StartwithProgramming",
-            ].map((item) => (
+            {dropdownItems.map((item) => (
               <li
                 key={item}
                 className={`${styles.dropdownItem} ${
                   activeDropdownItem === item ? styles.active : ""
                 }`}
                 onClick={(e) => {
-                  e.stopPropagation(); // Prevent event bubbling to parent
-                  setActiveDropdownItem(
-                    activeDropdownItem === item ? null : item
-                  );
+                  e.stopPropagation();
+                  setActiveDropdownItem(item);
+                  router.push(`/${slug}/${toPathSegment(item)}`);
                 }}
               >
                 {item}
@@ -59,7 +74,6 @@ export default function LeftNav({
           </ul>
         )}
 
-        {/* Other Navigation Items */}
         {[
           "Learn",
           "Opportunities",
@@ -75,8 +89,9 @@ export default function LeftNav({
               activeItem === item ? styles.active : ""
             }`}
             onClick={() => {
-              setActiveItem(activeItem === item ? null : item);
-              setActiveDropdownItem(null); // Reset dropdown item when clicking other nav items
+              setActiveItem(item);
+              setActiveDropdownItem(null);
+              router.push(`/${slug}/${toPathSegment(item)}`);
             }}
           >
             {item}

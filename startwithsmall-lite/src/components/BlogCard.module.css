@@ -1,0 +1,31 @@
+/* components/BlogCard.module.css */
+.card {
+  background-color: #111; /* Black background */
+  color: #fff; /* White text */
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: hwb(7 4% 3%); /* Slightly lighter black on hover */
+}
+
+.name {
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.designation {
+  color: #fff; /* Light gray for designation */
+  font-size: 1rem; /* 16px */
+}
+
+.description {
+  color: #fff; /* Lighter gray for description */
+  font-size: 0.875rem; /* 14px */
+  margin-top: 0.5rem;
+}
