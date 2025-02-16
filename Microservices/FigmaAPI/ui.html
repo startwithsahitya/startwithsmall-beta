@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .status-box {
+        padding: 15px;
+        border-radius: 5px;
+        margin: 10px 0;
+      }
+      .loading {
+        background: #e3f2fd;
+        color: #0d47a1;
+      }
+      .success {
+        background: #e8f5e9;
+        color: #2e7d32;
+      }
+      .error {
+        background: #ffebee;
+        color: #c62828;
+      }
+      .results {
+        background: #fff3e0;
+        color: #e65100;
+      }
+      .spinner {
+        animation: spin 1s linear infinite;
+        display: inline-block;
+      }
+      @keyframes spin {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Node Update Status</h3>
+    <div id="loading" class="status-box loading">
+      <span class="spinner">⏳</span> Initializing...
+    </div>
+    <div id="error" class="status-box error" style="display: none"></div>
+    <div id="success" class="status-box success" style="display: none"></div>
+    <div id="results" class="status-box results" style="display: none"></div>
+
+    <script>
+      function updateUI(message) {
+        const loading = document.getElementById("loading");
+        const error = document.getElementById("error");
+        const success = document.getElementById("success");
+        const results = document.getElementById("results");
+
+        // Hide all boxes initially
+        loading.style.display = "none";
+        error.style.display = "none";
+        success.style.display = "none";
+        results.style.display = "none";
+
+        switch (message.type) {
+          case "results":
+            results.innerHTML = `
+                        <h4>Update Results:</h4>
+                        <p>✅ Success: ${message.success}</p>
+                        ${
+                          message.errors > 0
+                            ? `
+                            <p>❌ Errors: ${message.errors}</p>
+                            <ul>
+                                ${message.details
+                                  .map(
+                                    (d) => `
+                                    <li>Node ${d.nodeId}: ${d.error}</li>
+                                `
+                                  )
+                                  .join("")}
+                            </ul>
+                        `
+                            : ""
+                        }
+                    `;
+            results.style.display = "block";
+            break;
+
+          case "error":
+            error.textContent = message.text;
+            error.style.display = "block";
+            break;
+
+          case "success":
+            success.textContent = message.text;
+            success.style.display = "block";
+            break;
+        }
+      }
+
+      window.addEventListener("message", (event) => {
+        if (event.data.pluginMessage) {
+          updateUI(event.data.pluginMessage);
+        }
+      });
+    </script>
+  </body>
+</html>
